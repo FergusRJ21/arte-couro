@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arte & Couro</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <img src="img/Logo.PNG" alt="Logo da loja" />
+    </div>
+    <div class="logo-text">Arte & Couro</div>
+
+    <nav>
+      <div class="nav-links">
+        <a href="#produtos">Produtos</a>
+        <a href="#about">Sobre</a>
+        <a href="#contact">Contato</a>
+      </div>
+      <div class="hamburger" aria-label="Abrir menu" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div id="carouselExampleControls" class="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/brincosModelos7.PNG" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/brincosModelos1.PNG" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/brincosModelos3.PNG" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/brincosModelos4.PNG" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/brincosModelos5.PNG" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/brincosModelos6.PNG" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/brincosModelos2.PNG" alt="Third slide">
+        </div>
+      </div>
+      <div class="carousel-control-prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </div>
+      <div class="carousel-control-next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- FILTRO -->
+  <section class="filter-controls" id="produtos">
+    <button class="active" data-filter="">Todos</button>
+    <button data-filter="brincos">Brincos</button>
+    <button data-filter="colares">Colares</button>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="gallery" class="gallery"></section>
+
+  <!-- SOBRE -->
+  <section id="about" class="about">
+    <h2>Sobre</h2>
+    <p>
+      <br>💳 aceitamos PIX, cartão de crédito e débito
+      <br>🚚 entregamos em todo o Brasil
+    </p>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contact" class="contact">
+    <h2>Fale Conosco</h2>
+    <form>
+      <a href="https://www.instagram.com/direct/t/111650466900701" target="_blank" class="direct-link">
+        Clique aqui para enviar uma mensagem direta no Instagram
+      </a>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <section class="instagram-preview">
+      <h2>Siga no Instagram</h2>
+      <a href="https://www.instagram.com/arteecouro/" target="_blank" class="insta-profile-link">
+        <img src="img/logo-instagram.PNG" alt="Perfil do Instagram" />
+        <p>@arteecouro</p>
+      </a>
+    </section>
+
+    <p class="copyright">© 2025 Arte & Couro. Todos os direitos reservados.</p>
+    <p class="dev-credit">
+      Desenvolvido por
+      <a href="https://fergusrj21.github.io/curriculo/" target="_blank">Francisnei Rodrigues</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
